@@ -1,0 +1,63 @@
+*{
+    align-items: center;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h1{
+    margin-top: 90px;
+    color: rgb(204, 9, 9);
+    text-shadow: 5px 8px 5px rgba(255, 1, 1, 0.5);
+    font-size: 55px;
+   font-family: Arial, Helvetica, sans-serif
+  
+}
+
+
+h2{
+    color: white;
+    font-size: medium;
+    margin-top: -29px;
+}
+
+button{
+    color: black;
+}
+form{
+    color: white;
+
+}
+fieldset{
+    color: white
+}
+
+
+fieldset{
+   border: solid rgb(186, 0, 0);
+   border-width: 0px;
+    border-radius: 30px;
+    background-color: rgba(255, 238, 238, 0.068);
+}
+legend{
+    color: white;
+}
+
+form{
+    
+    color: white;
+}
+
+#resultado_de_espera{
+    color: white;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(Willis.png)}
+
+
+body{
+    background-image: url(Background.png)
+}
+

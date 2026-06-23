@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><strong>WILLIWATCH</strong></h1>
+    <h2>O mundo do cinema na palma da sua mão.</h2>
+    <form id="Formulario">
+
+        <fieldset>
+            <legend></legend>
+
+            <label for="nome">
+                Título:
+                </br>
+            <input 
+                type="text"
+                placeholder="Informe o título do filme"
+                id="nome"
+                class="caixa_entrada"
+                required
+            >
+                </label>
+            </br>
+                <label for="Diretor">
+                 Diretor Principal:
+                 </br>
+            <input 
+                type="text"
+                placeholder="Informe o Diretor Principal"
+                id="diretor"
+                class="caixa_entrada"
+                required
+            >
+                </label>
+            </br>
+                <label for="Lançamento">
+                 Ano de Lançamento:
+                 </br>
+            <input 
+                type="number"
+                placeholder="Informe o ano de lançamento"
+                id="data"
+                class="caixa_entrada"
+                required
+            >
+                </label>
+        
+
+            <br>
+            </br>
+            <button type="submit" id="cadastrar">
+                Cadastrar
+            </button>
+
+
+            <input 
+                type="button"
+                id="btn_consultar"
+                onclick="listar()"
+                value="Consultar"
+            >
+
+        </fieldset>
+
+    </form>
+
+    <br>
+
+    <fieldset>
+
+        <legend>Dê o play na sua história!</legend>
+
+        <div id="resultado_de_espera"></div>
+
+    </fieldset>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
